@@ -1,0 +1,1 @@
+# dental-clinc-app-schema
