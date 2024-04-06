@@ -1,0 +1,43 @@
+delete from payment.categories;
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('1', 'Doctor visit', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('2', 'X-RAY', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('3', 'Cleaning', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('4', 'Root planing', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('5', 'Treatments', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('6', 'Composite filling front', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('7', 'Composite filling back', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('8', 'Amalagma filling', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('9', 'Repair', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('10', 'Crown/Bridge', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('11', 'Root canal treatment', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('12', 'Extraction', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('13', 'Denture', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('14', 'Bleaching', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('15', 'Brace', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('16', 'Emergency tretment', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('17', 'Removal appliance', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('18', 'Category 18', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('19', 'Others', 't');
+
+
+---OR
+delete from payment.categories;
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('1', 'Doctor visit', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('2', 'X-RAY', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('3', 'Endodontic treatments', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('4', 'Operative & Restorative', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('5', 'Child treatment', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('6', 'Periodontic therapy', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('7', 'Extraction and minor orar surgery', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('8', 'Prosthodontic procedure', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('9', 'Orthodontic treatment', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('10', 'Category 10', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('11', 'Category 11', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('12', 'Category 12', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('13', 'Category 13', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('14', 'Category 14', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('15', 'Category 15', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('16', 'Category 16', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('17', 'Category 17', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('18', 'Category 18', 't');
+INSERT INTO "payment"."categories" ("id", "name", "active") VALUES ('19', 'Category 19', 't');
